@@ -39,7 +39,7 @@ namespace Exercicio6
             else
                 if (v1 > 30000.00 && v1 < 50000.00)
                 {
-                    receptor1 = (s1 / v1) * 09.5;
+                    receptor1 = (s1 / v1) * 9.5 / 100;
                 }
                 else
                     receptor1 = (s1 / v1) * 0.7;
@@ -51,7 +51,7 @@ namespace Exercicio6
             else
                 if (v2 > 30000.00 && v2 < 50000.00)
                 {
-                    receptor2 = (s1 / v2) * 09.5;
+                    receptor2 = (s1 / v2) * 9.5 / 100;
                 }
                 else
                     receptor2 = (s1 / v2) * 0.7;
@@ -63,7 +63,7 @@ namespace Exercicio6
             else
                 if (v3 > 30000.00 && v3 < 50000.00)
                 {
-                    receptor3 = (s1 / v3) * 09.5;
+                    receptor3 = (s1 / v3) * 9.5/100;
                 }
                 else
                     receptor3 = (s1 / v3) * 0.7;
@@ -73,7 +73,7 @@ namespace Exercicio6
             Console.WriteLine("Salario reajustado do corretor" +c3 + "com comissão " + receptor3);
 
         }
-        static void Main1241(string[] args)
+        static void Main(string[] args)
         {
             Corretores(s1, s2, s3, c1, c2, c3, v1, v2, v3, receptor1, receptor2, receptor3);
 
