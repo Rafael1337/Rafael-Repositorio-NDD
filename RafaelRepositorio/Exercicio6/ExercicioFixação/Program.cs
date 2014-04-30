@@ -73,7 +73,7 @@ namespace Exercicio6
             Console.WriteLine("Salario reajustado do corretor" +c3 + "com comissão " + receptor3);
 
         }
-        static void Main(string[] args)
+        static void Main111(string[] args)
         {
             Corretores(s1, s2, s3, c1, c2, c3, v1, v2, v3, receptor1, receptor2, receptor3);
 
