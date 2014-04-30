@@ -4,15 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercicio6
+namespace Unidade6
 {
-
-
-    class lista6EXE10
+    class Complementar6Exe6
     {
-         static void Main132123W(string[] args)
-         {
+        static void Main(string[] args)
+        {
 
-         }
+        }
     }
 }

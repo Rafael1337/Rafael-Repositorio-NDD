@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication1
+namespace Unidade6
 {
     class Complementar6Exe4
     {
@@ -36,7 +36,7 @@ namespace ConsoleApplication1
                     else
                         Console.WriteLine("...");
         }
-        static void Main(string[] args)
+        static void Main11(string[] args)
         {
             Partida();
         }

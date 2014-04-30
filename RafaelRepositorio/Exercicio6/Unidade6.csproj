@@ -7,8 +7,8 @@
     <ProjectGuid>{076D4583-5AAF-4910-B5CC-3CEB855ABB17}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Exercicio6</RootNamespace>
-    <AssemblyName>Exercicio6</AssemblyName>
+    <RootNamespace>Unidade6</RootNamespace>
+    <AssemblyName>Unidade6</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,8 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="lista6EXE10.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="ExerciciosComplementares\Complementar6Exe1.cs" />
+    <Compile Include="ExerciciosComplementares\Complementar6Exe2.cs" />
+    <Compile Include="ExerciciosComplementares\Complementar6Exe3.cs" />
+    <Compile Include="ExerciciosComplementares\Complementar6Exe4.cs" />
+    <Compile Include="ExerciciosComplementares\Complementar6Exe5.cs" />
+    <Compile Include="ExerciciosComplementares\Complementar6Exe6.cs" />
+    <Compile Include="ExercicioFixação\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
