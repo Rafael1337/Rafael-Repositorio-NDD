@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication1
+namespace Unidade6.ExercicioSlide
 {
-    class Complementar6Exe5
+    class Exercicio1DoSlide_OperadoresAritimeticos
     {
-        static void Main11(string[] args)
-        {
-
-        }
     }
 }
