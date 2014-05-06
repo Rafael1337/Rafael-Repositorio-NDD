@@ -40,7 +40,7 @@ namespace Unidade6
                 }
             } 
         }
-        static void Main(string[] args)
+        static void Main213(string[] args)
         {
             LerDados();
             Comparador();
