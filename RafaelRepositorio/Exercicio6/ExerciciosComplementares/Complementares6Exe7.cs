@@ -9,7 +9,7 @@ namespace Complementares6
     class Complementares6Exe7
     {
         public static int opc;
-        public static double h_salario, m_salario, t_horas,q_faltas, res_m, res_h;
+        public static double h_salario, m_salario, t_horas, q_faltas, res_m;
         public static void Funcionario(){
             Console.WriteLine("1 - Horista");
             Console.WriteLine("2 - Mensalista");
