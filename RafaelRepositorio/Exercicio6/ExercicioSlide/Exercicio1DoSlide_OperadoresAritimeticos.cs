@@ -37,12 +37,14 @@ namespace Unidade6.ExercicioSlide
              valor %= 3;
              valor++;
              valor--;
-             a = 10;
-             int i = 0;
-             Console.WriteLine(a < 0 || i++ < 500);
-             Console.WriteLine(a < 0 && i++ < 500);
-             Console.WriteLine(a > 0 & i++ > 500);
-             Console.WriteLine(a > 0 | i++ > 500);
+
+             int i = 7;
+             bool j = false;
+             j = (i == 6 && i != 7); // E
+             j = (i <= 10 || i >= 5); // OU
+             j(i == 7 ^ i <= 10); // XOR
+     
+ 
         }
     }
 }
