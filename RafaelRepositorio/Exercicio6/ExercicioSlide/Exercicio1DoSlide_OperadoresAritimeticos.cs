@@ -36,6 +36,7 @@ namespace Unidade6.ExercicioSlide
             valor %= 3;
             valor++;
             valor--;
+
         }
     }
 }
