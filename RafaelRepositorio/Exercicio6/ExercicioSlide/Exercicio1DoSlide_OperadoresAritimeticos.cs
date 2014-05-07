@@ -8,7 +8,7 @@ namespace Unidade6.ExercicioSlide
 {
     class Exercicio1DoSlide_OperadoresAritimeticos
     {
-        static void Main(string[] args)
+        static void Main111(string[] args)
         {
            int x,y,z;
            x = 7;
@@ -27,6 +27,15 @@ namespace Unidade6.ExercicioSlide
             Console.WriteLine(1 + 2 + 3 + "AHAHAHAHA");
             Console.WriteLine("AHAHAHAHA" + 1 + 2 + 3);
             double a = (double) 5 / 2;
+
+            int valor = 1;
+            valor += 2;
+            valor -= 1;
+            valor *= 6;
+            valor /= 3;
+            valor %= 3;
+            valor++;
+            valor--;
         }
     }
 }
