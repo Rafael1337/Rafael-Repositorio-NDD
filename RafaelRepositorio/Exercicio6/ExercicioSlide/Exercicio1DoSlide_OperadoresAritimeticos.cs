@@ -36,8 +36,13 @@ namespace Unidade6.ExercicioSlide
              valor /= 3;
              valor %= 3;
              valor++;
-             valor--;         
-
+             valor--;
+             a = 10;
+             int i = 0;
+             Console.WriteLine(a < 0 || i++ < 500);
+             Console.WriteLine(a < 0 && i++ < 500);
+             Console.WriteLine(a > 0 & i++ > 500);
+             Console.WriteLine(a > 0 | i++ > 500);
         }
     }
 }

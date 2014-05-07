@@ -9,7 +9,7 @@ namespace Complementares6
     class Complementares6Exe9
     {
         public static string t, contarLetras;
-        public static int variosFuros, aux;
+        public static int aux;
 
 
         public static void ContadorDeBuracos()

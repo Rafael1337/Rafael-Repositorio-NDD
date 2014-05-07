@@ -10,7 +10,7 @@ namespace Exercicio6
     {
         public static double v1, v2, v3, receptor1, receptor2, receptor3, s1, s2, s3;
         public static string c1, c2, c3;
-        public static void Corretores(double s1, double s2, double s3, string c1, string c2, string c3, double v1, double v2, double v3,double receptor1, double receptor2, double receptor3)
+        public static void Corretores()
         {
             Console.WriteLine("Informe o nome do corretor 1");
             c1 = Console.ReadLine();
@@ -75,7 +75,7 @@ namespace Exercicio6
         }
         static void Main111(string[] args)
         {
-            Corretores(s1, s2, s3, c1, c2, c3, v1, v2, v3, receptor1, receptor2, receptor3);
+            Corretores();
 
         }
     }
