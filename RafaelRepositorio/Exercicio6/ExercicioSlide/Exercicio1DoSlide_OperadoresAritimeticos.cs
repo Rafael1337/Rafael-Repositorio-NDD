@@ -17,6 +17,14 @@ namespace Unidade6.ExercicioSlide
             j = (i <= 10 || i >= 5);
             j = (i == 7 ^ i <= 10); 
         }
+
+        public static void ahh(){
+            int y, x;
+             y = 1;
+             x = 1;
+             bool teste = false;
+            Console.WriteLine(teste ? x: y );
+        }
         public static double a;
         static void Main111(string[] args)
         {
@@ -46,9 +54,11 @@ namespace Unidade6.ExercicioSlide
              valor %= 3;
              valor++;
              valor--;
-
-             
-     
+            // ...
+             int j = 0;
+             int i = 10;
+             j =  ++i + i--;
+        
  
         }
     }
