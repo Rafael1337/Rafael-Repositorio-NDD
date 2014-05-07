@@ -29,8 +29,14 @@ namespace Unidade6.ExercicioSlide
             Console.WriteLine("AHAHAHAHA" + 1 + 2 + 3);
              a = (double) 5 / 2;
 
-           
-
+             int valor = 1;
+             valor += 2;
+             valor -= 1;
+             valor *= 6;
+             valor /= 3;
+             valor %= 3;
+             valor++;
+             valor--;         
 
         }
     }

@@ -48,6 +48,11 @@
     <Compile Include="ExerciciosComplementares\Complementar6Exe5.cs" />
     <Compile Include="ExerciciosComplementares\Complementar6Exe6.cs" />
     <Compile Include="ExercicioFixação\Program.cs" />
+    <Compile Include="ExerciciosComplementares\Complementares6Exe10.cs" />
+    <Compile Include="ExerciciosComplementares\Complementares6Exe7.cs" />
+    <Compile Include="ExerciciosComplementares\Complementares6Exe8.cs" />
+    <Compile Include="ExerciciosComplementares\Complementares6Exe9.cs" />
+    <Compile Include="ExercicioSlide\Exercicio1DoSlide_OperadoresAritimeticos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -13,8 +13,8 @@ namespace Unidade6
         public static int gremio, inter;
         public static void Partida()
         {
-            gremio = randGol.Next(1, 5);
-            inter = randGol.Next(1, 5);
+            gremio = randGol.Next(0, 5);
+            inter = randGol.Next(0, 5);
             if (gremio > inter)// SEMPRE SERA
             {
                 Console.WriteLine("Gremio WINS!");
