@@ -6,8 +6,17 @@ using System.Threading.Tasks;
 
 namespace Unidade6.ExercicioSlide
 {
+    
     class Exercicio1DoSlide_OperadoresAritimeticos
     {
+        public static void jj()
+        {
+            int i = 7;
+            bool j = false;
+            j = (i == 6 && i != 7);
+            j = (i <= 10 || i >= 5);
+            j = (i == 7 ^ i <= 10); 
+        }
         public static double a;
         static void Main111(string[] args)
         {
@@ -38,11 +47,7 @@ namespace Unidade6.ExercicioSlide
              valor++;
              valor--;
 
-             int i = 7;
-             bool j = false;
-             j = (i == 6 && i != 7); // E
-             j = (i <= 10 || i >= 5); // OU
-             j(i == 7 ^ i <= 10); // XOR
+             
      
  
         }
