@@ -18,6 +18,29 @@ namespace Unidade6.ExercicioSlide
             j = (i == 7 ^ i <= 10); 
         }
 
+        public static void Exercicio8() //Operadores ternário
+        {
+            Random gerador = new Random();
+            double nota = gerador.NextDouble() * 100;
+            string resultado = nota >= 0.5 ? "Aprovado" : "Reprovado";
+        }
+
+        public static void Exercicio9() //Operador de negação
+        {
+            Console.WriteLine(!(1 > 2));
+            Console.ReadKey();
+        }
+
+        public static void Exercicio10() //Operador de incremento e decremento pós e pré
+        {
+            int i = 10;
+            int t = ++i + i--;
+            int c = i++ + --i;
+            Console.WriteLine(t);
+            Console.WriteLine(t);
+            Console.ReadKey();
+        }
+
         public static void ahh(){
             int y, x;
              y = 1;

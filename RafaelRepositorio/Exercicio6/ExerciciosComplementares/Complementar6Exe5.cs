@@ -60,7 +60,7 @@ namespace Unidade6
             Console.WriteLine("salario com adicional e por quantidade de caixas : " + Salario);
             Console.ReadKey();
         }
-        static void Main(string[] args)
+        static void Main111(string[] args)
         {
             Trabalhadores();
         }

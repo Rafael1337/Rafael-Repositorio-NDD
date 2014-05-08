@@ -53,14 +53,16 @@
     <Compile Include="ExerciciosComplementares\Complementares6Exe8.cs" />
     <Compile Include="ExerciciosComplementares\Complementares6Exe9.cs" />
     <Compile Include="ExercicioSlide\Exercicio1DoSlide_OperadoresAritimeticos.cs" />
+    <Compile Include="MedindoAfebreV\10MedindoAfebre.cs" />
+    <Compile Include="MedindoAfebreV\7MedindoAfebre.cs" />
+    <Compile Include="MedindoAfebreV\8MedindoAfebre.cs" />
+    <Compile Include="MedindoAfebreV\9MedindoAfebre.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="MedindoAfebreV\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
