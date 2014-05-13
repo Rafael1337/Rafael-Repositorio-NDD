@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Unidade6.MedindoAfebreV
+namespace Unidade8
 {
-    class _10MedindoAfebre
+    class Program
     {
         static void Main11(string[] args)
         {
-
         }
     }
 }

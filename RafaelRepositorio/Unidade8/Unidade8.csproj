@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{076D4583-5AAF-4910-B5CC-3CEB855ABB17}</ProjectGuid>
+    <ProjectGuid>{DA9D88A9-1067-4679-A396-3F91096EED57}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Unidade6</RootNamespace>
-    <AssemblyName>Unidade6</AssemblyName>
+    <RootNamespace>Unidade8</RootNamespace>
+    <AssemblyName>Unidade8</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,29 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ExercicioFixação\5.cs" />
-    <Compile Include="ExerciciosComplementares\Complementar6Exe1.cs" />
-    <Compile Include="ExerciciosComplementares\Complementar6Exe2.cs" />
-    <Compile Include="ExerciciosComplementares\Complementar6Exe3.cs" />
-    <Compile Include="ExerciciosComplementares\Complementar6Exe4.cs" />
-    <Compile Include="ExerciciosComplementares\Complementar6Exe5.cs" />
-    <Compile Include="ExerciciosComplementares\Complementar6Exe6.cs" />
-    <Compile Include="ExercicioFixação\Program.cs" />
-    <Compile Include="ExerciciosComplementares\Complementares6Exe10.cs" />
-    <Compile Include="ExerciciosComplementares\Complementares6Exe7.cs" />
-    <Compile Include="ExerciciosComplementares\Complementares6Exe8.cs" />
-    <Compile Include="ExerciciosComplementares\Complementares6Exe9.cs" />
-    <Compile Include="ExercicioSlide\Exercicio1DoSlide_OperadoresAritimeticos.cs" />
-    <Compile Include="MedindoAfebreV\10MedindoAfebre.cs" />
-    <Compile Include="MedindoAfebreV\7MedindoAfebre.cs" />
-    <Compile Include="MedindoAfebreV\8MedindoAfebre.cs" />
-    <Compile Include="MedindoAfebreV\9MedindoAfebre.cs" />
+    <Compile Include="5.cs" />
+    <Compile Include="ExercicioSlides\1.cs" />
+    <Compile Include="ExercicioSlides\2.cs" />
+    <Compile Include="ExercicioSlides\3.cs" />
+    <Compile Include="ExercicioSlides\4.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

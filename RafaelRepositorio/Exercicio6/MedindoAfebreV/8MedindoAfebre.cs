@@ -45,7 +45,7 @@ namespace Unidade6.MedindoAfebreV
             }
             while (opc != 0);
         }
-        static void Main111(string[] args)
+        static void Main222(string[] args)
         {
             PessoasEntrando();
         }
