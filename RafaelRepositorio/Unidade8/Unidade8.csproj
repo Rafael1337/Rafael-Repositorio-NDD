@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="5.cs" />
+    <Compile Include="ExercicioSlides\5.cs" />
     <Compile Include="ExercicioSlides\1.cs" />
     <Compile Include="ExercicioSlides\2.cs" />
     <Compile Include="ExercicioSlides\3.cs" />
