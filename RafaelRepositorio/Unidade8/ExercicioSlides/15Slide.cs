@@ -8,7 +8,7 @@ namespace Unidade8.ExercicioSlides
 {
     class _15Slide
     {
-        static void Main(string[] args)
+        static void Main11(string[] args)
         {
             for (int i = 0; i < 10; i++) ;
             {
