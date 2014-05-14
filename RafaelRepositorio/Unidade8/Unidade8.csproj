@@ -50,7 +50,6 @@
     <Compile Include="ExercicioSlides\2.cs" />
     <Compile Include="ExercicioSlides\3.cs" />
     <Compile Include="ExercicioSlides\4.cs" />
-    <Compile Include="ExercicioSlides\5forWhile.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

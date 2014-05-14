@@ -10,10 +10,17 @@ namespace Unidade8.ExercicioSlides
     {
         static void Main1231(string[] args)
         {
-            for (int i = 0;i <= 100 % 2  ; i++)
-            {                
-                Console.WriteLine(i);
-            }
+            int x = 1;
+            do
+            {
+                if (x % 3 != 0)
+                {
+                    Console.WriteLine(x);
+                }
+                x++;
+
+            } while (x <= 100);
         }
+
     }
 }
