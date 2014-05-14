@@ -41,11 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExercicioSlides\1forWhile.cs" />
+    <Compile Include="ExercicioSlides\2forWhile.cs" />
+    <Compile Include="ExercicioSlides\3forWhile.cs" />
+    <Compile Include="ExercicioSlides\4forWhile.cs" />
     <Compile Include="ExercicioSlides\5.cs" />
     <Compile Include="ExercicioSlides\1.cs" />
     <Compile Include="ExercicioSlides\2.cs" />
     <Compile Include="ExercicioSlides\3.cs" />
     <Compile Include="ExercicioSlides\4.cs" />
+    <Compile Include="ExercicioSlides\5forWhile.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

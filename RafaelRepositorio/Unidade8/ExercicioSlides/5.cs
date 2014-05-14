@@ -10,7 +10,7 @@ namespace Unidade8
     {
         
         public static Random RandNum = new Random();
-        static void Main(string[] args)
+        static void Main241(string[] args)
         {
           
             int a = RandNum.Next(0,1000);
