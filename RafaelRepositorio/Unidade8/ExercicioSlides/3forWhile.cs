@@ -8,7 +8,7 @@ namespace Unidade8.ExercicioSlides
 {
     class _3forWhile
     {
-        static void Main(string[] args)
+        static void Main111(string[] args)
         {
             int x = 1;
             do

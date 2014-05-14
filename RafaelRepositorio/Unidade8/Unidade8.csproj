@@ -41,6 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExercicioSlides\12Slide.cs" />
+    <Compile Include="ExercicioSlides\13Slide.cs" />
+    <Compile Include="ExercicioSlides\14Slide.cs" />
+    <Compile Include="ExercicioSlides\15Slide.cs" />
     <Compile Include="ExercicioSlides\1forWhile.cs" />
     <Compile Include="ExercicioSlides\2forWhile.cs" />
     <Compile Include="ExercicioSlides\3forWhile.cs" />
