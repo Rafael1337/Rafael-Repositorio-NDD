@@ -31,7 +31,7 @@ namespace Medindo_a_febre6
                 Nota2 = RandNum.Next(1, 100);
                 Nota3 = RandNum.Next(1, 100);
                 Notafinal = (Nota1 + Nota2 + Nota3) / 3;
-                Notafinal = Notafinal+Notafinal;
+                
                 
                 Console.WriteLine("Nota final do aluno: " + Notafinal);
                 Console.WriteLine("Informe o total de aulas dadas - MINIMO 40: ");
@@ -60,6 +60,7 @@ namespace Medindo_a_febre6
                         Console.WriteLine("Reprovado");
                         
                     }
+                Notafinal += Notafinal;
                 Mediaturma = Notafinal/Total_alunos;
                 Console.WriteLine("Media turma: "+Mediaturma);
                 Console.WriteLine("Quantidade de alunos aprovados: " + count);
