@@ -15,7 +15,7 @@ namespace Medindo_a_febre6
     class _12
     {
         public static Random RandNum = new Random();
-        public static int Qt_aulas,Qt_freq,Total_alunos,Total_faltas;
+        public static int Qt_aulas,Qt_freq,Total_alunos,Total_faltas,count,aux;
         public static double Notafinal, Nota1, Nota2, Nota3;
         public static string Matricula = "";
         public static void Aluno()
@@ -47,19 +47,21 @@ namespace Medindo_a_febre6
 
                 if (Notafinal >= 60 && Qt_freq >= 40)
                 {
+                    
+                    count = count + 1;
                     Console.WriteLine("Aprovado");
                 }
                 else
-                    if (Notafinal < 60)
+                    if (Notafinal < 60 || Qt_freq < 40)
                     {
-                        Console.WriteLine("Reprovou por Media");
+                        
+                        aux = aux + 1;
+                        Console.WriteLine("Reprovado");
+                        
                     }
-                    else
-                        if (Qt_freq < 40)
-                        {
-                            Console.WriteLine("Reprovado por faltas");
-                        }
-               
+
+                Console.WriteLine("Quantidade de alunos aprovados: " + count);
+                Console.WriteLine("Quantidade de alunso reprovados: "+ aux);
                 j++;
             } while (j == Total_alunos);
            
