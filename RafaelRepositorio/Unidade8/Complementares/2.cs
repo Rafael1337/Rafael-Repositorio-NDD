@@ -36,39 +36,33 @@ namespace Unidade8.Complementares
 
         }
         static void Main(string[] args)
-        {
-            aux = 0;
-            i = 0;
+        {         
             tamanho = "*******";
                 tamanho2 = "   *******";
                 tamanho3 = "       *******";
-            while (i < 2)
-            {
+                for (int h = 0; h < 1;h++ )
                 {
-                    for (g = 0; g <= 5; g++)
                     {
-                        partebranca(aux);
-                        Console.WriteLine(tamanho);
-                        aux++;
+                        for (g = 1; g <= 5; g++)
+                        {
+                            partebranca(aux);
+                            Console.WriteLine(tamanho);
+                            aux++;
+                        }
+                        for (g = 1; g <= 5; g++)
+                        {
+                            partebranca2(aux);
+                            Console.WriteLine(tamanho2);
+                            aux++;
+                        }
+                        for (g = 1; g <= 5; g++)
+                        {
+                            partebranca3(aux);
+                            Console.WriteLine(tamanho3);
+                            aux++;
+                        }                    
                     }
-                    for (g = 0; g <= 5; g++)
-                    {
-                        partebranca2(aux);
-                        Console.WriteLine(tamanho2);
-                        aux++;
-                    }
-                    for (g = 0; g <= 5; g++)
-                    {
-                        partebranca3(aux);
-                        Console.WriteLine(tamanho3);
-                        aux++;
-                    }
-                    aux = 0;
-                    Console.WriteLine(" ");
-                    i++;
                 }
-            }
-
         }
     }
 }
