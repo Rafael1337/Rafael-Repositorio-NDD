@@ -16,7 +16,7 @@ namespace Medindo_a_febre6
     {
         public static Random RandNum = new Random();
         public static int Qt_aulas,Qt_freq,Total_alunos,Total_faltas,count,aux;
-        public static double Notafinal, Nota1, Nota2, Nota3;
+        public static double Notafinal, Nota1, Nota2, Nota3,Mediaturma;
         public static string Matricula = "";
         public static void Aluno()
         {
@@ -31,7 +31,8 @@ namespace Medindo_a_febre6
                 Nota2 = RandNum.Next(1, 100);
                 Nota3 = RandNum.Next(1, 100);
                 Notafinal = (Nota1 + Nota2 + Nota3) / 3;
-
+                Notafinal = Notafinal+Notafinal;
+                
                 Console.WriteLine("Nota final do aluno: " + Notafinal);
                 Console.WriteLine("Informe o total de aulas dadas - MINIMO 40: ");
                 Qt_aulas = Convert.ToInt32(Console.ReadLine());
@@ -59,7 +60,8 @@ namespace Medindo_a_febre6
                         Console.WriteLine("Reprovado");
                         
                     }
-
+                Mediaturma = Notafinal/Total_alunos;
+                Console.WriteLine("Media turma: "+Mediaturma);
                 Console.WriteLine("Quantidade de alunos aprovados: " + count);
                 Console.WriteLine("Quantidade de alunso reprovados: "+ aux);
                 j++;
