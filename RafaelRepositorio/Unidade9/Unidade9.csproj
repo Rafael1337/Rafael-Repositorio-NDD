@@ -47,9 +47,9 @@
     <Compile Include="ExercicioFixacao\6.cs" />
     <Compile Include="ExercicioFixacao\7.cs" />
     <Compile Include="ExercicioFixacao\8.cs" />
-    <Compile Include="ExercicioFixacao\Arrays\SequenciaCrescente.cs" />
-    <Compile Include="ExercicioFixacao\Arrays\SequenciaDecrescente.cs" />
-    <Compile Include="ExercicioFixacao\Arrays\SequenciaQualquer.cs" />
+    <Compile Include="ExercicioFixacao\SequenciaCrescente.cs" />
+    <Compile Include="ExercicioFixacao\SequenciaDecrescente.cs" />
+    <Compile Include="ExercicioFixacao\SequenciaQualquer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
