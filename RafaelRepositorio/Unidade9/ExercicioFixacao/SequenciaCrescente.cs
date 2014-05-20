@@ -9,7 +9,7 @@ namespace Unidade9.Arrays
     class SequenciaCrescente
     {
         public static Random RandNum = new Random();
-        static void Main(string[] args)
+        static void Main11(string[] args)
         {
 
             int[] vet = new int[10];
