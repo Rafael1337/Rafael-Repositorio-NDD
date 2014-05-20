@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Unidade_9
 {
-    class _7
+    class TabelaAleatoria
     {
         static void Main11(string[] args)
         {

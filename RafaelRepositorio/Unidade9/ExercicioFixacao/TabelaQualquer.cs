@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Unidade_9
 {
-    class _6
+    class TabelaQualquer
     {
         public static Random randi = new Random();
         static void Main11(string[] args)

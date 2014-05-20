@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Unidade_9
 {
-    class _8
+    class Tabuada
     {
         static void Main(string[] args)
         {

@@ -41,12 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ExercicioFixacao\3.cs" />
-    <Compile Include="ExercicioFixacao\4.cs" />
-    <Compile Include="ExercicioFixacao\5.cs" />
-    <Compile Include="ExercicioFixacao\6.cs" />
-    <Compile Include="ExercicioFixacao\7.cs" />
-    <Compile Include="ExercicioFixacao\8.cs" />
+    <Compile Include="ExercicioFixacao\Sequenciaimpar.cs" />
+    <Compile Include="ExercicioFixacao\SequenciaAleatoria.cs" />
+    <Compile Include="ExercicioFixacao\TabelaQualquer.cs" />
+    <Compile Include="ExercicioFixacao\TabelaAleatoria.cs" />
+    <Compile Include="ExercicioFixacao\Tabuada.cs" />
     <Compile Include="ExercicioFixacao\SequenciaCrescente.cs" />
     <Compile Include="ExercicioFixacao\SequenciaDecrescente.cs" />
     <Compile Include="ExercicioFixacao\SequenciaQualquer.cs" />

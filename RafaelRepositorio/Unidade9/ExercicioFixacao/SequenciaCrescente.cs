@@ -12,21 +12,12 @@ namespace Unidade9.Arrays
         static void Main(string[] args)
         {
 
-            int[] Numeros;
-            Numeros = new int[10];
-            
-            for (int i = 0; i < Numeros.Length; i++)
+            int[] vet = new int[10];
+
+            for (int i = 0; i < vet.Length; i++)
             {
-                Numeros[i] = RandNum.Next(1, 10);
-                if (i != 0)
-                {
-                    if (Numeros[i] > Numeros[i - 1])
-                    {
-                        Console.WriteLine(Numeros[i]);
-                    }
-                    continue;
-                    
-                }
+                vet[i] = i + 1;
+                Console.WriteLine(i + vet[i]);
             }
         }
     }
