@@ -44,6 +44,9 @@
     <Compile Include="Complementares\1.cs" />
     <Compile Include="Complementares\2.cs" />
     <Compile Include="Complementares\3.cs" />
+    <Compile Include="Complementares\4.cs" />
+    <Compile Include="Complementares\5.cs" />
+    <Compile Include="Complementares\6.cs" />
     <Compile Include="ExercicioSlides\12Slide.cs" />
     <Compile Include="ExercicioSlides\13Slide.cs" />
     <Compile Include="ExercicioSlides\14Slide.cs" />
