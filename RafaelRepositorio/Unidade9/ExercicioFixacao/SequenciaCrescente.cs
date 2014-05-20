@@ -17,7 +17,7 @@ namespace Unidade9.Arrays
             for (int i = 0; i < vet.Length; i++)
             {
                 vet[i] = i + 1;
-                Console.WriteLine(i + vet[i]);
+                Console.WriteLine(i +" "+ vet[i]);
             }
         }
     }

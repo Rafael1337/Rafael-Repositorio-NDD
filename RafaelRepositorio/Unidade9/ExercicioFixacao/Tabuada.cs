@@ -8,7 +8,7 @@ namespace Unidade_9
 {
     class Tabuada
     {
-        static void Main(string[] args)
+        static void Main4121(string[] args)
         {
             int[,] Array = new int[10, 10];
             for (int i = 0; i <  10; i++)
