@@ -18,29 +18,31 @@ namespace Unidade9.ExerciciosComplementares
             string[] RespostaAlunos = new string[10];
             string[] Alunos = new string[20];
 
-            for (i = 0; i < 10; i++)
+            for (i = 0; i < Gabarito.Length; i++)
             {                
-                Gabarito[i] = Resposta[Rand.Next(0, 6)].ToString();
-                if (i == 10)
-                {
-                    Console.WriteLine("GABARITO");
-                    Console.WriteLine("Resposta do gabarito: "+Gabarito[i]);
-                }
+                Gabarito[i] = Resposta[Rand.Next(0, Resposta.Length)].ToString();
+           
+                    Console.WriteLine("GABARITO " + i);
+                    Console.WriteLine("Resposta do gabarito: " + Gabarito[i]);
+           
+               
             }
-            for (n = 0; n < 20; n++)
+            for (n = 0; n < Alunos.Length; n++)
             {
                 Console.WriteLine("Nome aluno: ");
                 Alunos[n] = Console.ReadLine();
-            }
-            for (r = 0; r < 10; r++)
-            {
-                Console.WriteLine("Informe a resposta da: " + r);
-                RespostaAlunos[r] = Console.ReadLine();
-                if (RespostaAlunos[r] == Gabarito[i])
+                for (r = 0; r < 10; r++)
                 {
-                    aux = aux + 1;
+                    Console.WriteLine("Informe a resposta da: " + r);
+                    RespostaAlunos[r] = Console.ReadLine();
+                    if (RespostaAlunos[r] == Gabarito[r])
+                    {
+                        aux = aux + 1;
+                    }
                 }
-            }
+            }        
+       
+           
             Console.WriteLine("Aluno: " + Alunos[n]);
             Console.WriteLine("Respostas do gabarito: " + RespostaAlunos[r]);
             Console.WriteLine("Nota do Aluno: " + aux);
