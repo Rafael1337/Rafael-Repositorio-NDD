@@ -10,7 +10,7 @@ namespace Unidade9.ExerciciosComplementares
     {
         public static int i,r,n,aux;
         public static Random Rand = new Random();
-        static void Main(string[] args)
+        static void Main1111111111(string[] args)
         {
             
             char[] Resposta = new char[]{'a','b','c','d','e'};
