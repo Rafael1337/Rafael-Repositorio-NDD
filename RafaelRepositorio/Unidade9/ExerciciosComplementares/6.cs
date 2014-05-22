@@ -26,12 +26,12 @@ namespace Unidade9.ExerciciosComplementares
                 {                    
                     qt++;               
 
-                    Console.WriteLine("Numeros de filmes gratuitos" + qt);
+                    Console.WriteLine("Numeros de filmes gratuitos " + qt);
                 }
             }
             Console.ReadKey();
         }
-        static void Main(string[] args)
+        static void Main11(string[] args)
         {
             Locadora();
         }
