@@ -9,7 +9,7 @@ namespace Unidade9.ExerciciosComplementares
     class _7
     {
         public static Random NumeroRandom = new Random();
-        static void Main(string[] args)
+        static void Main11(string[] args)
         {
 
             int[] a = new int[50];
