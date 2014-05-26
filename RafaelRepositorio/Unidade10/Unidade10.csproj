@@ -41,7 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fixacao\Arrays.cs" />
     <Compile Include="Fixacao\ConsumoDeCombustivel.cs" />
+    <Compile Include="Fixacao\IMC.cs" />
     <Compile Include="Fixacao\IRPF.cs" />
     <Compile Include="Fixacao\JurosCompostos.cs" />
     <Compile Include="Program.cs" />

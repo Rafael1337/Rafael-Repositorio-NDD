@@ -22,7 +22,7 @@ namespace Unidade10.Fixacao
             salarioBruto = irpff;
             return irpff;
         }
-        static void Main(string[] args)
+        static void Main231(string[] args)
         {
             double salarioBruto = 0;
             double reducao = 0;
