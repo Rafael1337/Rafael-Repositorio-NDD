@@ -14,7 +14,7 @@ namespace Unidade10.ExercicioFixacao
             return km /= gasosa; 
 
         }
-        static void Main(string[] args)
+        static void Main11(string[] args)
         {
             Console.WriteLine("Informe a quantidade de gasolina abastecida: ");
             double gasosa = Convert.ToDouble(Console.ReadLine());
