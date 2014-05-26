@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExercicioComplementares\Ano_Bissexto.cs" />
     <Compile Include="Fixacao\Arrays.cs" />
     <Compile Include="Fixacao\ConsumoDeCombustivel.cs" />
     <Compile Include="Fixacao\IMC.cs" />
@@ -52,6 +53,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
