@@ -152,6 +152,7 @@ namespace MedindoAfebre7
         {
 
            PopulaCampos();
+            // faltou somente os console, não consegui realizar testes. (HURRY CARONA)
         }
     }
 }
