@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6EBABBB4-1A87-41A7-8FA0-2CF3E7BE2065}</ProjectGuid>
+    <ProjectGuid>{34607EC9-B850-43EE-905E-6E6A0BD4F51A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Unidade10</RootNamespace>
-    <AssemblyName>Unidade10</AssemblyName>
+    <RootNamespace>MedindoAfebre7</RootNamespace>
+    <AssemblyName>MedindoAfebre7</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,20 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ExercicioComplementares\Ano_Bissexto.cs" />
-    <Compile Include="ExercicioComplementares\Datas_Meses.cs" />
-    <Compile Include="Fixacao\Arrays.cs" />
-    <Compile Include="Fixacao\ConsumoDeCombustivel.cs" />
-    <Compile Include="Fixacao\IMC.cs" />
-    <Compile Include="Fixacao\IRPF.cs" />
-    <Compile Include="Fixacao\JurosCompostos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
