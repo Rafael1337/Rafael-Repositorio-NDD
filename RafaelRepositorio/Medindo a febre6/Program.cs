@@ -8,6 +8,6 @@ namespace Medindo_a_febre6
 {
     class Program
     {
-       
+    
     }
 }
