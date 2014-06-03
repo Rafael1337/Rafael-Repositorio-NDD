@@ -20,6 +20,7 @@ namespace Unidade11.ExercicioFixacao
                 if (Nums[i] < menor)
                 {
                     troca = Nums[i];
+                    Console.WriteLine(troca);
                 }  
             }
         }
