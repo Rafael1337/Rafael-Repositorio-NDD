@@ -12,17 +12,18 @@ namespace Unidade11.ExercicioFixacao
         static void Main(string[] args)
         {
             int troca = 0;
-            int menor = 0;
+           
+            int[] aux = new int[20];
             int[] Nums = new int[20];
             for (int i = 0; i < 20; i++)
             {
+                aux[i] = randNum.Next(100,200);
                 Nums[i] = randNum.Next(1, 100);
-                if (Nums[i] < menor)
-                {
                     troca = Nums[i];
+                aux[i] = troca;
                   
                 }  
             }
         }
     }
-}
+
