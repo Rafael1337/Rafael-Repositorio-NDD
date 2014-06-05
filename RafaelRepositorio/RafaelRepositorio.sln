@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softlogic", "Softlogic\Soft
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unidade11", "Unidade11\Unidade11.csproj", "{5C313A9D-7409-4917-9FBD-CC325E804782}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedindoFebre7", "MedindoFebre7\MedindoFebre7.csproj", "{D3E72009-1110-4218-A370-0A39A8127369}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,14 +55,14 @@ Global
 		{4F057FDC-7D5D-45C6-9737-CEA975D0EA18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F057FDC-7D5D-45C6-9737-CEA975D0EA18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F057FDC-7D5D-45C6-9737-CEA975D0EA18}.Release|Any CPU.Build.0 = Release|Any CPU
-		{34607EC9-B850-43EE-905E-6E6A0BD4F51A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{34607EC9-B850-43EE-905E-6E6A0BD4F51A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{34607EC9-B850-43EE-905E-6E6A0BD4F51A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{34607EC9-B850-43EE-905E-6E6A0BD4F51A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5C313A9D-7409-4917-9FBD-CC325E804782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5C313A9D-7409-4917-9FBD-CC325E804782}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C313A9D-7409-4917-9FBD-CC325E804782}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C313A9D-7409-4917-9FBD-CC325E804782}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3E72009-1110-4218-A370-0A39A8127369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3E72009-1110-4218-A370-0A39A8127369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3E72009-1110-4218-A370-0A39A8127369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3E72009-1110-4218-A370-0A39A8127369}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

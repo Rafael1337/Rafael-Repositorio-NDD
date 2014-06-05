@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5C313A9D-7409-4917-9FBD-CC325E804782}</ProjectGuid>
+    <ProjectGuid>{D3E72009-1110-4218-A370-0A39A8127369}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Unidade11</RootNamespace>
-    <AssemblyName>Unidade11</AssemblyName>
+    <RootNamespace>MedindoFebre7</RootNamespace>
+    <AssemblyName>MedindoFebre7</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,18 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Complementares\MegaSena.cs" />
-    <Compile Include="ExercicioFixacao\AcharMaiorElemento.cs" />
-    <Compile Include="ExercicioFixacao\MediaElemento.cs" />
-    <Compile Include="ExercicioFixacao\OrdenarElemento.cs" />
-    <Compile Include="ExercicioFixacao\SomaElemento.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
