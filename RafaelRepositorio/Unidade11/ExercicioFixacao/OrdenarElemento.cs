@@ -9,7 +9,7 @@ namespace Unidade11.ExercicioFixacao
     class OrdenarElemento
     {
         public static Random randNum = new Random();
-        static void Main(string[] args)
+        static void Main111(string[] args)
         {
             int troca = 0;
            
