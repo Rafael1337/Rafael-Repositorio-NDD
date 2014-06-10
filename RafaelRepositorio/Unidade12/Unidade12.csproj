@@ -63,6 +63,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BD\ComandosAlunos5.sql" />
+    <Content Include="BD\ComandosAlunosComWhere3.sql" />
+    <Content Include="BD\ComandosAlunosDESC4.sql" />
+    <Content Include="BD\Exercicio6ComandosAlunos.sql" />
     <Content Include="BD\RafaelDB.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
