@@ -9,7 +9,7 @@ namespace Unidade10.ExercicioComplementares
     class Idades
     {
         public static Random Rand = new Random();
-        public static int Idades(int i)
+        public static int _Idades(int i)
         {
             int[] idade = new int[20];
             for (i = 0; i <= 20; i++)
@@ -60,7 +60,7 @@ namespace Unidade10.ExercicioComplementares
             int[]idade =  new int[20];
             int menor = 0;
             int media = 0;
-            Idades(i);
+            _Idades(i);
             Maior(maior,i,idade);
             Menor(menor,i,idade);
             Media(media,i,idade);

@@ -47,7 +47,7 @@ namespace Unidade10.ExercicioComplementares
                 }
             }
         }
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             int dia = 0;
             int mes = 0;

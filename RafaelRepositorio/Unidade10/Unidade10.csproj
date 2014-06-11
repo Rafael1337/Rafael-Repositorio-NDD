@@ -41,7 +41,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ExercicioComplementares\Ano_Bissexto.cs" />
     <Compile Include="ExercicioComplementares\Datas_Meses.cs" />
     <Compile Include="ExercicioComplementares\Idades.cs" />
     <Compile Include="Fixacao\Arrays.cs" />

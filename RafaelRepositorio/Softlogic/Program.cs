@@ -62,7 +62,7 @@ namespace Ajuda
                     Console.WriteLine("Exibir provas ja elaboradas staticamente de exemplo");
                     break;
                 case 0:
-                    MostraMenu();
+                   // MostraMenu();
                     break;
 
             }
