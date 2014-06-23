@@ -75,6 +75,8 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Complementares\ComandosComplementares.sql" />
+    <Content Include="TrabalhoSQL\Trabalho.sql" />
+    <Content Include="TrabalhoSQL\TrabalhoTeoricas.sql" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
