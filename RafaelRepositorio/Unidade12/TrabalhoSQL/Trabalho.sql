@@ -2,8 +2,10 @@
 INSERT INTO TBMatricula (Curso_Id, Aluno_Id) VALUES (4,1)
 
 --2 )
-select nome from AlunoTB where Id > 0 order by Nome;
-select * from TBCurso where id > 0 order by Nome
+SELECT M.Id, A.Nome, C.Nome FROM AlunoTB as A
+INNER JOIN TBMatricula AS M On A.Id = M.Aluno_Id
+INNER JOIN TBCurso AS C ON M.Curso_Id = C.Id
+ORDER BY C.Nome
 
 -- 3) 
 select * from AlunoTB where DataNascimento <= '01/01/1995'
