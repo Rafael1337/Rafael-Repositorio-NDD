@@ -10,16 +10,16 @@ namespace Unidade12.ArrayList_e_List
     class Arrays
     {
         public static Random Rand = new Random();
-        //static void Main1(string[] args)
-        //{
-        //    List<int> lista = new List<int>();
-        //    for (int i = 0; i < 7; i++)
-        //    {
-        //        lista.Add(Rand.Next(1, 100));
-        //        Console.WriteLine(lista[i]);                
-        //    }
-        //    Console.WriteLine("Maior valor: " + lista.Max());
-        //}
+        static void Main(string[] args)
+        {
+            List<int> lista = new List<int>();
+            for (int i = 0; i < 7; i++)
+            {
+                lista.Add(Rand.Next(1, 100));
+                Console.WriteLine(lista[i]);
+            }
+            Console.WriteLine("Maior valor: " + lista.Max());
+        }
 
         //    public static int i;        
         //    static void Main2(string[] args)
@@ -48,30 +48,30 @@ namespace Unidade12.ArrayList_e_List
         //    }
 
 
-        static void Main(string[] args)
-        {
-            ArrayList AL = new ArrayList();
-            int fil = 0;
-            int qt = 0;
-            Console.WriteLine("Informe a quantidade de filmes locado pelo cliente: ");
-            fil = Convert.ToInt32(Console.ReadLine());
-            for (int i = 0; i < fil; i++)
-            {
-                Console.WriteLine("Filme: " + i);
-                string titulos = Console.ReadLine();
-                AL.Add(titulos[i]);                
-                if (i >= 10)
-                {
-                    qt++;
+        //static void Main(string[] args)
+        //{
+        //    ArrayList AL = new ArrayList();
+        //    int fil = 0;
+        //    int qt = 0;
+        //    Console.WriteLine("Informe a quantidade de filmes locado pelo cliente: ");
+        //    fil = Convert.ToInt32(Console.ReadLine());
+        //    for (int i = 0; i < fil; i++)
+        //    {
+        //        Console.WriteLine("Filme: " + i);
+        //        string titulos = Console.ReadLine();
+        //        AL.Add(titulos[i]);                
+        //        if (i >= 10)
+        //        {
+        //            qt++;
 
-                    Console.WriteLine("Numeros de filmes gratuitos " + qt);
-                }
-             }
-            for (int i = 0; i < fil; i++)
-            {
-                Console.WriteLine("Titulos locados pelo cliente");
-                Console.WriteLine(AL[i]);
-            }
-            }            
+        //            Console.WriteLine("Numeros de filmes gratuitos " + qt);
+        //        }
+        //     }
+        //    for (int i = 0; i < fil; i++)
+        //    {
+        //        Console.WriteLine("Titulos locados pelo cliente");
+        //        Console.WriteLine(AL[i]);
+        //    }
+        //    }            
         }      
     }
