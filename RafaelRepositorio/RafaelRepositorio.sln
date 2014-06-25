@@ -27,6 +27,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BancoDeDados", "BancoDeDado
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pedido", "Pedido\Pedido.csproj", "{08524DF0-A825-42E2-9108-A65067AFB34C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnidadeComplementar", "13\UnidadeComplementar.csproj", "{B14417ED-6CC8-4FFE-A915-7DF832A2E098}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +79,10 @@ Global
 		{08524DF0-A825-42E2-9108-A65067AFB34C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08524DF0-A825-42E2-9108-A65067AFB34C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08524DF0-A825-42E2-9108-A65067AFB34C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B14417ED-6CC8-4FFE-A915-7DF832A2E098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B14417ED-6CC8-4FFE-A915-7DF832A2E098}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B14417ED-6CC8-4FFE-A915-7DF832A2E098}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B14417ED-6CC8-4FFE-A915-7DF832A2E098}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
