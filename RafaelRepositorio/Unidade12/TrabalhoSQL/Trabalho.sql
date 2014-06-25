@@ -23,7 +23,7 @@ ON C.Id=M.Curso_Id
 Group by C.Nome
 
 -- 6)
-select Nome from AlunoTB where DataNascimento <= '01/01/1995'
+select Email from AlunoTB where DataNascimento <= '01/01/1995'
 
 -- 7)
 select Nome from AlunoTB where Sexo = 'F'
