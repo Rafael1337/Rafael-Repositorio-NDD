@@ -29,6 +29,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pedido", "Pedido\Pedido.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnidadeComplementar", "13\UnidadeComplementar.csproj", "{B14417ED-6CC8-4FFE-A915-7DF832A2E098}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTML", "HTML", "{61ACD09D-BD42-413D-A0E1-AFE386D838BC}"
+	ProjectSection(SolutionItems) = preProject
+		index.html = index.html
+		style.css = style.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSS", "CSS", "{40D2CA3B-304F-40CC-B584-CEA764CC9C25}"
+	ProjectSection(SolutionItems) = preProject
+		index2.html = index2.html
+		style2.css = style2.css
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -1,0 +1,40 @@
+﻿body {
+    background: url(3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#header {
+    width: 1570px;
+    height: 150px;
+    border: 1px solid black;
+    float: left;
+}
+
+#centro {
+    width: 1570px;
+    height: 600px;
+    border: 1px solid black;
+    float: left;
+}
+
+#centro1 {
+    border: 1px solid black;
+    width: 521px;
+    height: 600px;
+    float: left;
+}
+
+#centro2 {
+    border: 1px solid black;
+    width: 521px;
+    height: 600px;
+    float: left;
+}
+
+#centro3 {
+    border: 1px solid black;
+    width: 522px;
+    height: 600px;
+    float: left;
+}

@@ -1,0 +1,32 @@
+﻿h2 {
+    color: green;
+}
+
+body {
+    background-image: url(3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#brbr {
+    height: 100px;
+    width: 200px;
+    background-color: red;
+    border-bottom: solid black;
+    border-top: solid black;
+}
+
+.label {
+    color: yellow;
+    background: black;
+}
+
+p.uppercase {
+    text-indent: 50px;
+    font-family: Verdana;
+}
+
+p.lowercase {
+    text-indent: 50px;
+    font-family: Verdana;
+}
